@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table {
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+
+tbody {
+  border-bottom: 1px solid lightgray;
+}
+
+th,
+td {
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  padding: 4px 6px;
+}
+
+tfoot {
+  color: gray;
+}
+
+tfoot th {
+  font-weight: normal;
+}
+
+.form > input {
+  padding: 0.5rem;
+}
+
+thead > tr {
+  text-align: left;
+}
